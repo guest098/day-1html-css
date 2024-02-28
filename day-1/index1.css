@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:black;
+}
+section{
+    text-align:center;
+}
+section h1{
+    color:orangered;
+    font-size:38px;
+    margin-top:4%;
+}
+.img-1{
+    display:flex;
+}
+.img-1 figure{
+    margin-right:2%;
+    margin-left:6%;
+    margin-top:4%;
+}
+.img-1 img{
+    width:75%;
+    height:75%;
+    border:2px solid orangered;
+}
+.img-1 figcaption{
+    color:orangered;
+    border:2px solid orangered;
+    font-size:36px;
+    width:75%;
+    margin-left:12.3%;
+    cursor:pointer;
+    line-height:1em;
+    margin-top:-0.9%;
+    background-color:white;
+}
+.img-1 figcaption:hover{
+    color:white;
+    background-color:orangered;
+}
+#fig-1{
+    font-size:34px;
+}
+#fig-2{
+    height:10vh;
+}
